@@ -1,5 +1,6 @@
 from flask import Flask, render_template, url_for, request, flash
 
+# https://www.youtube.com/playlist?list=PLA0M1Bcd0w8yrxtwgqBvT6OM4HkOU3xYn
 
 app = Flask(__name__)
 app.secret_key = 'super secret key'
